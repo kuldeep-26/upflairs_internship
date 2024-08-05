@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insurance Prediction</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            padding-top: 56px;
+            background-color: #f7f9fa;
+        }
+        .hero {
+            background: url(https://c8.alamy.com/comp/2GGNG6Y/insurance-banner-background-illustration-2GGNG6Y.jpg);
+            padding: 150px 0;
+            background-size: 100%;
+            height: 400px;
+            text-align: center;
+            color:#eb0a0a;
+        }
+        .feature-icons {
+            font-size: 2.5rem;
+            color: #007bff;
+        }
+        .footer {
+            background: #343a40;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        img{
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">My Project</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <marquee><h1 class="display-4"><b>Welcome to  My Project</b></h1><br></marquee>
+            <!-- <img src="static\files\ml.jpeg" alt="project photo" height=400 width=600><br><br> -->
+            <a href="/project" class="btn btn-danger btn-lg">START </a><br><br>
+        </div>
+    </header>
+    
+
+    <!-- Profile Section -->
+    <section id="about" class="py-5">
+        <div class="container">   
+            <h1 style="color: #ed6110;">Description</h1><br> 
+            
+            <span style="text-align: left; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">Prediction for Insurance Charges:<br><br>
+
+            In the ever-evolving landscape of the insurance industry, predicting insurance 
+            charges involves analyzing a complex array of factors that impact premiums. These 
+            charges, or premiums, are determined based on historical data, current trends, and 
+            predictive analytics.</span><br><br>
+
+            <span style="text-align: left; color: #ed6110; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">Key Predictive Factors:</span><br><br>
+
+            <span style="text-align: left; color: red; padding-left: 50px; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">1. Historical Data Trends: </span>
+            <p style="text-align: left; padding-left: 50px; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">Past claims history, policyholder behavior, and previous premium rates are 
+            examined to identify patterns that can forecast future charges.</p><br><br>
+
+            <span style="text-align: left; color: red; padding-left: 50px; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">2. Risk Assessment:</span> 
+            <p style="text-align: left; padding-left: 50px; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">Insurers assess risk factors such as age, health, location, and driving history 
+            for auto insurance, or property condition and location for homeowners insurance. 
+            Advances in data collection and analysis enable more precise risk evaluation.</p><br><br>
+
+            <span style="text-align: left; color: red; padding-left: 50px; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">3. Economic Conditions:</span> 
+            <p style="text-align: left; padding-left: 50px; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">Fluctuations in the economy, including inflation rates and changes in interest rates, 
+            can influence insurance premiums. For example, economic downturns may lead to increased 
+            premiums as insurers adjust for higher risk.</p><br><br>
+
+            <span style="text-align: left; color: red; padding-left: 50px; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">4. Regulatory Changes:</span> 
+            <p style="text-align: left; font-size: x-large; padding-left: 50px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">New regulations or changes in insurance laws can impact premium rates. Predictive 
+            models must account for potential regulatory shifts that could affect pricing structures.</p><br><br>
+
+            <span style="text-align: left; color: red; padding-left: 50px; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">5. Technological Advancements:</span> 
+            <p style="text-align: left; font-size: x-large; padding-left: 50px; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">Innovations such as telematics in auto insurance or smart home devices in property 
+            insurance provide insurers with more detailed data to refine their predictions and adjust 
+            charges accordingly.</p><br><br>
+
+            <span style="text-align: left; color: #ed6110; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">Prediction Models:</span><br><br>
+
+            <span style="text-align: left; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">Insurance companies utilize sophisticated algorithms and machine learning models to 
+            predict future charges. These models analyze historical data, market trends, and individual 
+            risk profiles to generate accurate premium forecasts. By leveraging predictive analytics, 
+            insurers aim to balance competitive pricing with adequate risk coverage.</span><br><br>
+
+            <span style="text-align: left; color: #ed6110; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">Impact on Policyholders:</span><br><br>
+
+            <span style="text-align: left; font-size: x-large; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;">For consumers, understanding these predictions can provide insight into potential 
+            changes in their insurance costs. Factors such as improved personal risk profiles 
+            (e.g., a clean driving record) or changes in policy coverage can result in adjustments to 
+            insurance charges.<br><br>
+
+            Overall, the prediction of insurance charges is a dynamic process that integrates various 
+            data points and analytical techniques to provide a fair and accurate estimate of future 
+            premiums.</span><br><br><hr><br>
+            
+            <h2 style="color: orangered;">Profile</h2><br><br>
+            <img src="static\files\kuldeep.jpeg" alt="My Image" height=300 width=300 style="float: left;">
+            <mark><p style="text-align: center; font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ; margin-left: 400px; font-size:x-large;">
+                Hello! I’m Harsh Singh, a passionate software developer with a keen interest in innovative web technologies.
+                My project, WebConnect, aims to revolutionize the way we interact with online platforms by providing seamless, 
+                intuitive user experiences through cutting-edge AI and design. Through real-time data analysis and user-centric 
+                design, I’m excited to enhance how people connect and collaborate online. Join me on this journey as we explore 
+                the future of digital interaction together!</p></mark><br><br>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div style="text-align: center;" class="container">
+            <a href="https://github.com/kuldeep-26" target="_blank" class="btn btn-outline-secondary">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/harsh-singh-6a1273319" target="_blank" class="btn btn-outline-secondary">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://instagram.com/kuldeep_.26" target="_blank" class="btn btn-outline-secondary">
+                <i class="fab fa-instagram"></i>
+            </a><br><br>
+            <h2>Thank You For Visiting.</h2>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2024 My Project. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Font Awesome (for icons) -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>
